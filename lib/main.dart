@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_stories/fractal_tree.dart';
+import 'package:flutter_stories/mandelbrot.dart';
 import 'package:storybook_flutter/storybook_flutter.dart';
 
 void main() {
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
         ),
         stories: [
           fractalTreeStory,
+          mandelbrotStory,
         ],
       );
 }
